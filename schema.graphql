@@ -1,0 +1,14 @@
+type Pool_Transfer {
+  id: ID!
+  from: String!
+  to: String!
+  value: BigInt!
+  isBurn: Boolean!
+}
+
+type BurnStats {
+  id: ID!  # use "total" as the static ID
+  totalBurned: BigInt!
+}
+
+
